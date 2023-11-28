@@ -1,0 +1,84 @@
+/*   Created By: Bibek Shrestha
+     Date: November 27, 2023  */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b58888;
+    margin: 0;
+}
+.quiz-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.quiz-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+label:hover {
+    background-color: #d2d2d2;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    margin-top: 20px;
+    display: none;
+}
+
+h2, p {
+    color: #333;
+}
